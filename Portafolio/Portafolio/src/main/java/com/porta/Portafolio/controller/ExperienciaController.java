@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/portafolio")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://my-porfolio-cea8f.web.app")
 public class ExperienciaController {
 
     private IExperienciaService experServ;

@@ -1,5 +1,6 @@
 package com.porta.Portafolio.model;
 
+import com.jayway.jsonpath.internal.function.text.Length;
 import javax.persistence.*;
 import java.util.Set;
 import javax.persistence.CascadeType;
@@ -29,8 +30,8 @@ public class Persona {
 
     @Column(name = "apellido")
     private String apellido;
-
-    @Column(name = "sobre_mi")
+    
+    @Column(name = "sobre_mi", length = 600)
     private String sobreMi;
 
     @Column(name = "ocupacion")

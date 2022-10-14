@@ -22,7 +22,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/portafolio")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("https://my-porfolio-cea8f.web.app")
 public class ProyectoController {
 
     private IProyectoService proyecServ;
