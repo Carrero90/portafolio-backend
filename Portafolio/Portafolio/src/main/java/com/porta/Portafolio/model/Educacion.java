@@ -40,7 +40,7 @@ public class Educacion {
     @Column(name="carrera")
     private String carrera;
     
-    @Column(name="descripcion")
+    @Column(name="descripcion", length = 600)
     private String descripcion;
     
        
